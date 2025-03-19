@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
-const publicKey = process.env.EMAILJS_PUBLIC_KEY;
+
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -14,7 +14,7 @@ const [mailSendedMessage, setMailSendedMessage] = useState("")
 
   function handleSubmit(e) {
     e.preventDefault();
-    emailjs.sendForm('service_2khlm57', 'template_l5wfka7', form.current, publicKey)
+    emailjs.sendForm('service_2khlm57', 'template_l5wfka7', form.current, 'bCAjTAUAi9HynKjIX')
     .then((result) => {
         console.log(result.text);
         setFormData({
