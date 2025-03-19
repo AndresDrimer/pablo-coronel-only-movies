@@ -13,7 +13,7 @@ const [mailSendedMessage, setMailSendedMessage] = useState("")
 
   function handleSubmit(e) {
     e.preventDefault();
-    emailjs.sendForm('service_2khlm57', 'template_l5wfka7', form.current, 'bCAjTAUAi9HynKjIX')
+    emailjs.sendForm('service_2khlm57', 'template_l5wfka7', form.current, process.env.EMAILSJS_PUBLIC_KEY)
     .then((result) => {
         console.log(result.text);
         setFormData({
