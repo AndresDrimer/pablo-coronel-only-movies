@@ -5,7 +5,7 @@ export default {
   sections: [
     { category: "about", id: 1 },
     { category: "services", id: 2 },
-    { category: "portfolio", id: 3 },
+    //{ category: "portfolio", id: 3 },
     { category: "works", id: 4 },
     { category: "contact", id: 5 },
   ],

@@ -20,16 +20,19 @@ export default function Home(props){
         awards={props.data.awards}
       /> 
    
-     
+       
       <Services
         title={props.data.services.title}
         finalText={props.data.services.finalText}
         eachService={props.data.services.eachService}
       />
+    
       
-      <Portfolio 
-      portfolio={props.data.portfolio} 
+         {/* 
+      <Portfolio
+        portfolio={props.data.portfolio}
       />
+    */}
       
       <Works 
       works={props.data.works} 
