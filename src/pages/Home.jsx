@@ -5,6 +5,8 @@ import Works from "../components/Works/Works";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Portfolio from '../components/Portfolio/Portfolio'
+import AboutNew from "../components/AboutNew";
+import ServicesNew from "../components/ServicesNew";
 
 
 export default function Home(props){
@@ -12,7 +14,7 @@ export default function Home(props){
         <>
         <VideoBackground />
       
-      <About
+      <AboutNew
         aboutPhoto={props.data.aboutPhoto}
         logoPhoto={props.data.logoPhoto}
         awardsLogo={props.data.awardsLogo}
@@ -21,10 +23,11 @@ export default function Home(props){
       /> 
    
        
-      <Services
-        title={props.data.services.title}
+      <ServicesNew
+        title="Awards"
         finalText={props.data.services.finalText}
         eachService={props.data.services.eachService}
+        awards={props.data.awards}
       />
     
       

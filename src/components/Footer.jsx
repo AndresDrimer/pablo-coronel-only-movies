@@ -12,12 +12,13 @@ export default function Footer(props) {
       <div className="--footer-title-and-subtitle-container">
         <h4 className="--footer-title">{props.name.toUpperCase()}</h4>
         <h6 className="--footer-subtitle">{props.subtitle.toUpperCase()}</h6>
+        
       </div>
 
       {/*   datos de contacto   */}
 
       <div className="footer-first-level-container">
-
+<img src="/logo.png" alt="logo" width={40} height={40} />
 
         <div className="--foter-icon-text-container">
           <img src={phoneIcon} className="--footer-icon-tel" alt="phone icon" />

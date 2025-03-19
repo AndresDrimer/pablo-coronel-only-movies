@@ -409,7 +409,7 @@ nav {
 }
 @media (width>900px) {
   .--services-all-text-container {
-    max-width: 40%;
+    max-width: 60%;
   }
 }
 .--services-logoImgs {
@@ -431,8 +431,10 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
   padding-right: 40px;
+  color:azure;
 }
 .--services-cathegory-icon {
   width: 30px;
@@ -938,4 +940,10 @@ footer {
 .not-found {
   margin-top: 240px;
   height: 500px;
+}
+.biggerFont{
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+text-align: left;
+word-break: break-all;
 }

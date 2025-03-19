@@ -4,7 +4,7 @@ export default {
   subtitle: "filmmaker",
   sections: [
     { category: "about", id: 1 },
-    { category: "services", id: 2 },
+    { category: "awards", id: 2 },
     //{ category: "portfolio", id: 3 },
     { category: "works", id: 4 },
     { category: "contact", id: 5 },
